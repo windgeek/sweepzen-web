@@ -1,0 +1,68 @@
+{
+  "language": "Português (Brasil)",
+  "nav": ["Suporte", "Privacidade", "Idioma"],
+  "supportTitle": "SweepZen — Ajuda e suporte",
+  "supportDescription": "Ajuda do SweepZen para Mac: acesso a pastas, armazenamento, desinstalação, resíduos, extensões, recuperação e suporte.",
+  "eyebrow": "Ajuda e suporte",
+  "hero": "Mais clareza para o seu Mac.",
+  "lead": "Entenda o que ocupa espaço, confira o que pode sair e mantenha a decisão nas suas mãos.",
+  "cards": [
+    ["01 / ANALISAR", "Confira antes de limpar", "Analise caches de apps e arquivos de compilação. Cada resultado explica o que é e o que muda ao removê-lo."],
+    ["02 / EXPLORAR", "Veja o todo", "Explore o mapa de armazenamento por categoria e siga as pastas até encontrar o que mais ocupa espaço."],
+    ["03 / DESINSTALAR", "Escolha o que sai", "Confira apps e seus arquivos relacionados. Dados compartilhados ficam protegidos. Itens removidos no SweepZen vão para o Lixo."]
+  ],
+  "startTitle": "Primeiros passos",
+  "steps": [
+    "Abra o SweepZen em um Mac com macOS 14 ou posterior.",
+    "Escolha “Analisar e limpar”, “Mapa de armazenamento” ou “Desinstalar”. “Segundo plano e extensões” e a caixa de ferramentas oferecem funções separadas de revisão e solução de problemas.",
+    "Quando o macOS solicitar, permita o acesso à sua pasta pessoal. Desinstalar apps ou revisar arquivos temporários pode exigir acesso a outras pastas. As permissões ficam salvas localmente.",
+    "Confira cada resultado e seus detalhes. Selecione o que remover; dados compartilhados e itens cuja origem não pode ser confirmada ficam protegidos.",
+    "Confira a lista de confirmação antes de mover os itens selecionados para o Lixo."
+  ],
+  "faqTitle": "Perguntas frequentes",
+  "faq": [
+    ["Por que o espaço livre não aumentou?", "Arquivos no Lixo geralmente continuam ocupando espaço. Confira-os no Finder e esvazie o Lixo quando tiver certeza. O armazenamento compartilhado do APFS e os snapshots locais podem afetar o espaço recuperado. O SweepZen nunca esvazia o Lixo nem apaga snapshots do Time Machine."],
+    ["Como recupero um arquivo?", "Abra o Lixo no Finder. Use “Colocar de Volta” se disponível, ou mova o arquivo para seu local original. A recuperação pelo Lixo só é possível antes de esvaziá-lo."],
+    ["Por que um item foi ignorado ou mantido?", "Arquivos protegidos, dados compartilhados e dados que outra cópia de um app ainda pode usar são mantidos. Cópias fora de Applications também são consideradas. Resíduos usados por outra cópia mostram o local e o motivo da retenção, e não podem ser selecionados para remoção. Se a origem ou o acesso não puder ser confirmado, o item fica."],
+    ["Como renovo o acesso a uma pasta?", "Abra os ajustes do SweepZen e permita novamente o acesso à pasta correspondente. Para analisar, escolha sua pasta pessoal. O macOS ainda pode restringir alguns locais; o SweepZen não contorna essas restrições."],
+    ["Por que desinstalar exige acesso a Applications?", "A pasta /Applications fica fora da sua pasta pessoal. O macOS exige uma permissão separada antes que o SweepZen possa mover seus apps para o Lixo. Você pode cancelar a solicitação."],
+    ["O SweepZen pode remover itens do sistema?", "Itens que exigem autorização de administrador podem ser mostrados no Finder, mas o SweepZen não pode removê-los. Os comandos da caixa de ferramentas explicam os efeitos e custos. Você os copia e executa; o SweepZen nunca executa comandos de administrador."],
+    ["Como funcionam os itens em segundo plano e os menus do Finder?", "O SweepZen mostra apps em segundo plano, extensões e a origem das entradas dos menus do Finder. Siga, quando necessário, as instruções para os ajustes do macOS ou para parar serviços. Você pode escolher no SweepZen o app padrão para tipos de arquivo comuns. Essas ferramentas não apagam automaticamente entradas dos menus do sistema."],
+    ["O SweepZen envia meus arquivos?", "Não. O app processa informações de arquivos localmente, não faz solicitações de rede e não inclui contas, anúncios, análise ou serviço de envio. A política de privacidade explica separadamente a hospedagem do site e as mensagens de suporte."]
+  ],
+  "contactTitle": "Fale com o suporte",
+  "contactHeading": "Conte o que aconteceu.",
+  "contactBody": "Informe suas versões do macOS e do SweepZen, além dos passos que levaram ao problema. Capturas de tela são opcionais; oculte antes nomes de arquivos pessoais e informações sensíveis.",
+  "issueLink": "Relatar um problema no GitHub",
+  "issueWarning": "Os issues do GitHub são públicos. Não inclua arquivos privados nem informações pessoais.",
+  "privacyTitle": "SweepZen — Política de privacidade",
+  "privacyDescription": "Privacidade do SweepZen: processamento local, permissões de pastas, suporte, GitHub Pages e serviços da Apple.",
+  "privacyEyebrow": "Seus arquivos, no seu Mac",
+  "privacyHeading": "Política de privacidade",
+  "dates": "Em vigor desde: 5 de setembro de 2026 · Atualizada: 5 de outubro de 2026 · Desenvolvedor: Song Li",
+  "privacySections": [
+    ["O app SweepZen", [
+      "O SweepZen processa informações de arquivos e apps no seu Mac. Ele não coleta nem transmite ao desenvolvedor seus arquivos, caminhos, resultados de análise, atividades de uso, identificadores do dispositivo ou informações pessoais. Não tem contas, anúncios, SDKs de análise de terceiros nem rastreamento.",
+      "O app não tem a permissão de cliente de rede e não faz solicitações de rede. Links de suporte ou privacidade são abertos no navegador do sistema."
+    ]],
+    ["Informações usadas localmente", [
+      "Quando você solicita uma análise, um mapa de armazenamento ou uma revisão de apps, o SweepZen lê nomes e caminhos de arquivos, tamanhos e datas, metadados de apps e informações de apps em execução. Isso permite explicar o uso do disco e proteger dados em uso. Alguns arquivos de configuração e de origem são lidos localmente para identificar a qual app os dados pertencem.",
+      "O macOS concede acesso às pastas. Marcadores de acesso seguro e preferências, como idioma, aparência e data da última limpeza concluída, ficam no seu Mac. O app também lembra os identificadores e nomes dos apps que listou para reconhecer resíduos. Resultados e seleções ficam na memória durante o uso. Uma lista de limpeza só é salva no local escolhido quando você a exporta.",
+      "Itens removidos dentro do SweepZen vão para o Lixo do macOS. O app não o esvazia automaticamente. O macOS pode restringir alguns arquivos mesmo depois de conceder acesso à pasta."
+    ]],
+    ["Mensagens de suporte", [
+      "Se você enviar um e-mail ao desenvolvedor, o serviço de e-mail processará seu endereço, mensagem e anexos. Essas informações são usadas para responder e resolver o problema, e ficam retidas apenas pelo tempo necessário ao suporte e às obrigações aplicáveis. Não envie arquivos privados, senhas ou capturas sensíveis sem ocultar os dados.",
+      "Os issues do GitHub são públicos e são processados pelo GitHub conforme sua declaração de privacidade. Você pode usar e-mail em vez disso. Fale com o desenvolvedor para pedir a exclusão de um e-mail de suporte, sujeita às obrigações de retenção aplicáveis."
+    ]],
+    ["Este site e os serviços da Apple", [
+      "Este site é hospedado no GitHub Pages. Ele não adiciona análise, anúncios, cookies de rastreamento nem fontes de terceiros. O GitHub pode processar informações técnicas de solicitações, como endereços IP, para operar e proteger sua hospedagem.",
+      "Compras e downloads na App Store, além dos diagnósticos que você escolher compartilhar com a Apple, são tratados pela Apple conforme suas próprias políticas e seus ajustes."
+    ]],
+    ["Alterações e contato", [
+      "Se as práticas de tratamento de dados do app mudarem, esta política será atualizada com uma nova data de vigência. Para dúvidas de privacidade, fale com Song Li pelo e-mail abaixo."
+    ]]
+  ],
+  "policyLinks": ["Declaração de privacidade do GitHub", "Política de privacidade da Apple"],
+  "contactLabel": "Contato",
+  "legacyChinese": "简体中文版本 →"
+}

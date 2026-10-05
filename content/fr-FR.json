@@ -1,0 +1,68 @@
+{
+  "language": "Français",
+  "nav": ["Assistance", "Confidentialité", "Langue"],
+  "supportTitle": "SweepZen — Aide et assistance",
+  "supportDescription": "Aide pour SweepZen sur Mac : accès aux dossiers, stockage, désinstallation, résidus, extensions, récupération et assistance.",
+  "eyebrow": "Aide et assistance",
+  "hero": "Un peu de clarté pour votre Mac.",
+  "lead": "Comprenez ce qui occupe l’espace, examinez ce qui peut être retiré et gardez la décision entre vos mains.",
+  "cards": [
+    ["01 / ANALYSER", "Examiner avant de nettoyer", "Analysez les caches des apps et les fichiers de compilation. Chaque résultat explique son rôle et les effets de sa suppression."],
+    ["02 / EXPLORER", "Voir l’ensemble", "Explorez la carte du stockage par catégorie, puis suivez les dossiers jusqu’aux fichiers les plus volumineux."],
+    ["03 / DÉSINSTALLER", "Choisir ce qui peut partir", "Examinez les apps et leurs fichiers associés. Les données partagées restent protégées. Les éléments supprimés dans SweepZen vont à la Corbeille."]
+  ],
+  "startTitle": "Premiers pas",
+  "steps": [
+    "Ouvrez SweepZen sur un Mac sous macOS 14 ou version ultérieure.",
+    "Choisissez « Analyser et nettoyer », « Carte du stockage » ou « Désinstaller ». « Arrière-plan et extensions » et la boîte à outils proposent des fonctions distinctes de vérification et de dépannage.",
+    "Lorsque macOS le demande, autorisez l’accès à votre dossier de départ. La désinstallation ou l’examen de fichiers temporaires peut nécessiter d’autres autorisations de dossiers. Elles sont conservées localement.",
+    "Examinez chaque résultat et ses détails. Sélectionnez ce que vous souhaitez supprimer ; les données partagées et les éléments dont l’origine ne peut être confirmée restent protégés.",
+    "Vérifiez la liste de confirmation avant de déplacer les éléments sélectionnés vers la Corbeille."
+  ],
+  "faqTitle": "Questions fréquentes",
+  "faq": [
+    ["Pourquoi l’espace libre n’a-t-il pas augmenté ?", "Les fichiers dans la Corbeille occupent généralement encore de l’espace. Vérifiez-les dans le Finder et videz vous-même la Corbeille lorsque vous êtes sûr de votre choix. Le stockage partagé APFS et les instantanés locaux peuvent modifier l’espace libéré. SweepZen ne vide jamais la Corbeille et ne supprime pas les instantanés Time Machine."],
+    ["Comment récupérer un fichier ?", "Ouvrez la Corbeille dans le Finder. Utilisez « Remettre » si cette option est disponible, ou replacez le fichier à son emplacement d’origine. Cette récupération n’est possible que tant que la Corbeille n’a pas été vidée."],
+    ["Pourquoi un élément a-t-il été ignoré ou conservé ?", "Les fichiers protégés, les données partagées et celles qu’une autre copie d’une app pourrait encore utiliser sont conservés. Les copies situées hors d’Applications sont aussi prises en compte. Les résidus utilisés par une autre copie affichent leur emplacement et la raison de leur conservation, et ne peuvent pas être sélectionnés pour suppression. Si l’origine ou l’accès ne peut être confirmé, l’élément est conservé."],
+    ["Comment renouveler l’accès à un dossier ?", "Ouvrez les réglages de SweepZen et autorisez à nouveau l’accès au dossier concerné. Pour l’analyse, choisissez votre dossier de départ. macOS peut continuer à protéger certains emplacements ; SweepZen ne contourne pas ces restrictions."],
+    ["Pourquoi la désinstallation demande-t-elle l’accès à Applications ?", "Le dossier /Applications se trouve hors de votre dossier de départ. Une autorisation macOS distincte est nécessaire avant que SweepZen puisse déplacer ses apps vers la Corbeille. Vous pouvez annuler la demande."],
+    ["SweepZen peut-il supprimer des éléments système ?", "Les éléments nécessitant une autorisation administrateur peuvent être affichés dans le Finder, mais SweepZen ne peut pas les supprimer. Les commandes de la boîte à outils expliquent leurs effets et leurs coûts. Vous les copiez et les exécutez vous-même ; SweepZen n’exécute jamais de commandes administrateur."],
+    ["Comment fonctionnent les éléments en arrière-plan et les menus du Finder ?", "SweepZen affiche les apps en arrière-plan, les extensions et l’origine des entrées des menus du Finder. Suivez si nécessaire les indications pour les réglages macOS ou l’arrêt des services. Vous pouvez choisir directement dans SweepZen l’app par défaut pour les types de fichiers courants. Ces outils ne suppriment pas automatiquement les entrées des menus système."],
+    ["SweepZen envoie-t-il mes fichiers ?", "Non. L’app traite les informations des fichiers localement, n’effectue aucune requête réseau et ne propose ni compte, ni publicité, ni analyse, ni service d’envoi. La politique de confidentialité décrit séparément l’hébergement du site et les messages d’assistance."]
+  ],
+  "contactTitle": "Obtenir de l’aide",
+  "contactHeading": "Dites-nous ce qui s’est passé.",
+  "contactBody": "Indiquez vos versions de macOS et de SweepZen, ainsi que les étapes ayant mené au problème. Les captures d’écran sont facultatives ; masquez d’abord les noms de fichiers personnels et les informations sensibles.",
+  "issueLink": "Signaler un problème sur GitHub",
+  "issueWarning": "Les tickets GitHub sont publics. N’y joignez pas de fichiers privés ni d’informations personnelles.",
+  "privacyTitle": "SweepZen — Politique de confidentialité",
+  "privacyDescription": "Confidentialité de SweepZen : traitement local, autorisations de dossiers, assistance, GitHub Pages et services Apple.",
+  "privacyEyebrow": "Vos fichiers, sur votre Mac",
+  "privacyHeading": "Politique de confidentialité",
+  "dates": "En vigueur depuis le 5 septembre 2026 · Mise à jour : 5 octobre 2026 · Développeur : Song Li",
+  "privacySections": [
+    ["L’app SweepZen", [
+      "SweepZen traite les informations des fichiers et des apps sur votre Mac. L’app ne collecte ni ne transmet au développeur vos fichiers, chemins, résultats d’analyse, activités d’utilisation, identifiants d’appareil ou informations personnelles. Elle ne comporte ni compte, ni publicité, ni SDK d’analyse tiers, ni suivi.",
+      "L’app ne dispose pas de l’autorisation de connexion réseau client et n’effectue aucune requête réseau. Les liens d’assistance et de confidentialité s’ouvrent dans votre navigateur système."
+    ]],
+    ["Informations utilisées localement", [
+      "Lorsque vous demandez une analyse, une carte du stockage ou l’examen d’une app, SweepZen lit les noms et chemins des fichiers, leurs tailles et dates, les métadonnées des apps et les informations sur les apps en cours d’exécution. Cela permet d’expliquer l’utilisation du disque et de protéger les données utilisées. Certains fichiers de configuration et de provenance sont lus localement pour déterminer à quelle app les données appartiennent.",
+      "macOS autorise l’accès aux dossiers. Les signets d’accès sécurisé et les préférences, notamment la langue, l’apparence et la date du dernier nettoyage terminé, sont conservés sur votre Mac. L’app mémorise aussi les identifiants et noms des apps qu’elle a répertoriées pour reconnaître les résidus. Les résultats et sélections restent en mémoire pendant l’utilisation. Une liste de nettoyage n’est enregistrée à l’emplacement choisi que lorsque vous l’exportez.",
+      "Les éléments supprimés dans SweepZen vont à la Corbeille de macOS. L’app ne la vide pas automatiquement. macOS peut limiter l’accès à certains fichiers même après l’autorisation d’un dossier."
+    ]],
+    ["Messages d’assistance", [
+      "Si vous écrivez au développeur, le service de messagerie traite votre adresse, votre message et vos pièces jointes. Ces informations servent à répondre et à résoudre le problème et ne sont conservées que le temps nécessaire à l’assistance et aux obligations applicables. N’envoyez pas de fichiers privés, de mots de passe ou de captures sensibles non masquées.",
+      "Les tickets GitHub sont publics et sont traités par GitHub selon sa propre déclaration de confidentialité. Vous pouvez préférer un e-mail. Contactez le développeur pour demander la suppression d’un e-mail d’assistance, sous réserve des obligations de conservation applicables."
+    ]],
+    ["Ce site et les services Apple", [
+      "Ce site est hébergé sur GitHub Pages. Il n’ajoute ni analyse, ni publicité, ni cookies de suivi, ni polices tierces. GitHub peut traiter des informations techniques de requête, telles que les adresses IP, pour exploiter et sécuriser son hébergement.",
+      "Les achats et téléchargements sur l’App Store, ainsi que les diagnostics que vous choisissez de partager avec Apple, sont traités par Apple selon ses propres politiques et vos réglages."
+    ]],
+    ["Modifications et contact", [
+      "Si les pratiques de traitement des données de l’app changent, cette politique sera mise à jour avec une nouvelle date d’entrée en vigueur. Pour toute question de confidentialité, contactez Song Li à l’adresse e-mail ci-dessous."
+    ]]
+  ],
+  "policyLinks": ["Déclaration de confidentialité de GitHub", "Politique de confidentialité d’Apple"],
+  "contactLabel": "Contact",
+  "legacyChinese": "简体中文版本 →"
+}

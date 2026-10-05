@@ -1,0 +1,68 @@
+{
+  "language": "English (U.S.)",
+  "nav": ["Support", "Privacy", "Language"],
+  "supportTitle": "SweepZen — Support & Help",
+  "supportDescription": "Help for SweepZen on macOS: folder access, storage review, app removal, leftovers, extensions, Trash recovery, and contact support.",
+  "eyebrow": "Help & support",
+  "hero": "A little clarity for your Mac.",
+  "lead": "Understand what takes up space, review what can go, and keep the decision in your hands.",
+  "cards": [
+    ["01 / SCAN", "Review before clearing", "Scan app caches and build output. Each finding explains what it is and what removing it changes."],
+    ["02 / EXPLORE", "Find the larger picture", "Explore the storage map by category, then follow folders to find what takes up the most space."],
+    ["03 / UNINSTALL", "Choose what goes", "Review apps and their related files. Shared data stays protected. Items removed in SweepZen go to Trash."]
+  ],
+  "startTitle": "Getting started",
+  "steps": [
+    "Open SweepZen on a Mac running macOS 14 or later.",
+    "Choose Scan and clear, Storage map, or Uninstall. Background & Extensions and the toolbox provide separate review and troubleshooting tools.",
+    "When macOS asks, grant access to your home folder. Uninstalling apps or reviewing temporary files may require separate folder access. Grants are remembered locally.",
+    "Review each finding and its details. Select what to remove; shared data and items whose ownership cannot be confirmed stay protected.",
+    "Check the confirmation list before moving selected items to Trash."
+  ],
+  "faqTitle": "Common questions",
+  "faq": [
+    ["Why hasn’t free space increased?", "Moving files to Trash usually does not free their disk space. Check the files in Finder and empty Trash yourself when you are sure. APFS shared storage and local snapshots can affect the space returned. SweepZen never empties Trash or deletes Time Machine snapshots."],
+    ["How do I recover a file?", "Open Trash in Finder. Use Put Back if available, or move the file to its original location. Recovery through Trash is available only until you empty it."],
+    ["Why was an item skipped or kept?", "Protected files, shared data, and data that another app copy may still use are kept. Copies outside Applications also count. Leftovers held by another copy are shown with a location and reason, and cannot be selected for removal. If the app cannot confirm ownership or access, it keeps the item."],
+    ["How do I renew folder access?", "Open SweepZen’s Settings and grant access to the relevant folder again. Use your home folder for scanning. macOS may still restrict some locations; SweepZen cannot bypass those restrictions."],
+    ["Why does uninstalling ask for access to Applications?", "The /Applications folder is outside your home folder and needs a separate macOS grant before SweepZen can move apps to Trash. You can cancel the request."],
+    ["Can SweepZen remove system-level items?", "Items requiring administrator authorization can be revealed in Finder, but SweepZen cannot remove them. Toolbox commands explain their effect and cost. You copy and run them yourself; SweepZen never runs administrator commands."],
+    ["How do background items and Finder menus work?", "SweepZen shows background apps, extensions, and the origins of Finder menu entries. Follow the supplied macOS settings or service-stop instructions when needed. You can choose the default app for common file types directly in SweepZen. These tools do not automatically delete system menu entries."],
+    ["Does SweepZen upload my files?", "No. The app processes file information locally, makes no network requests, and has no accounts, ads, analytics, or upload service. The privacy policy separately explains website hosting and support messages."]
+  ],
+  "contactTitle": "Get help",
+  "contactHeading": "Tell us what happened.",
+  "contactBody": "Include your macOS version, SweepZen version, and the steps that led to the issue. Screenshots are optional; hide personal file names and sensitive information first.",
+  "issueLink": "Report a problem on GitHub",
+  "issueWarning": "GitHub issues are public. Do not include private files or personal information.",
+  "privacyTitle": "SweepZen — Privacy Policy",
+  "privacyDescription": "SweepZen privacy policy: local processing, folder permissions, support messages, GitHub Pages hosting, and Apple services.",
+  "privacyEyebrow": "Your files, on your Mac",
+  "privacyHeading": "Privacy policy",
+  "dates": "Effective: September 5, 2026 · Updated: October 5, 2026 · Developer: Song Li",
+  "privacySections": [
+    ["The SweepZen app", [
+      "SweepZen processes file and application information on your Mac. It does not collect or transmit your files, paths, scan results, usage activity, device identifiers, or personal information to the developer. It has no account system, ads, third-party analytics SDKs, or tracking.",
+      "The app has no network client entitlement and makes no network requests. Opening a support or privacy link uses your system browser."
+    ]],
+    ["Information used locally", [
+      "When you request a scan, storage map, or app review, SweepZen reads file names and paths, sizes and dates, app metadata, and running-app information to explain disk use and protect data in use. Some configuration and provenance files are read locally to identify data ownership.",
+      "macOS grants folder access. Security-scoped folder bookmarks and preferences, including language, appearance, and the last completed cleanup date, are stored on your Mac. The app also remembers the identifiers and names of apps it has listed, to help recognize leftovers. Scan results and selections are kept in memory during use. A cleanup list is saved to a location you choose only when you export it.",
+      "Items removed inside SweepZen go to macOS Trash. The app does not automatically empty Trash. macOS may restrict some files even after you grant folder access."
+    ]],
+    ["Support messages", [
+      "If you email the developer, the email service processes your address, message, and any attachments you send. This information is used to respond and troubleshoot, and is retained only as needed for support and applicable obligations. Do not send private files, passwords, or unredacted sensitive screenshots.",
+      "GitHub issues are public and are processed by GitHub under its own privacy statement. You may use email instead. Contact the developer to request deletion of a support email, subject to applicable retention obligations."
+    ]],
+    ["This website and Apple services", [
+      "This website is hosted on GitHub Pages. It does not add analytics, ads, tracking cookies, or third-party fonts. GitHub may process technical request information, such as IP addresses, to operate and secure its hosting service.",
+      "App Store purchases, downloads, and diagnostics you choose to share with Apple are handled by Apple under its own policies and settings."
+    ]],
+    ["Changes and contact", [
+      "If the app’s data practices change, this policy will be updated with a new effective date. For privacy questions, contact Song Li using the email address below."
+    ]]
+  ],
+  "policyLinks": ["GitHub General Privacy Statement", "Apple privacy policy"],
+  "contactLabel": "Contact",
+  "legacyChinese": "简体中文版本 →"
+}
