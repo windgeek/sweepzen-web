@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Generate complete static pages. No client-side translation or storage."""
 import html
+import hashlib
 import json
 import posixpath
 from pathlib import Path
@@ -10,6 +11,7 @@ BASE = 'https://windgeek.github.io/sweepzen-web/'
 LOCALES = ['en-US', 'zh-Hans', 'zh-Hant', 'de-DE', 'es-ES', 'fr-FR', 'ja', 'ko', 'pt-BR']
 TEXT = {l: json.loads((ROOT / 'content' / f'{l}.json').read_text()) for l in LOCALES}
 EMAIL = 'songlaoshi666@gmail.com'
+CSS_REVISION = hashlib.sha256((ROOT / 'style.css').read_bytes()).hexdigest()[:12]
 
 def esc(s):
     return html.escape(s, quote=True)
@@ -66,7 +68,7 @@ def generate(locale, privacy):
 {alternates}
 <link rel="alternate" hreflang="x-default" href="{public_url('en-US', privacy)}">
 <link rel="icon" href="{link('icon.png')}">
-<link rel="stylesheet" href="{link('style.css')}">
+<link rel="stylesheet" href="{link('style.css')}?v={CSS_REVISION}">
 </head>
 <body>
 <header><a class="brand" href="{link(page_file(locale))}"><img src="{link('icon.png')}" alt="" width="44" height="44">SweepZen</a><div class="header-actions"><nav aria-label="{esc(support + ' / ' + policy)}">{nav}</nav><details class="language-picker"><summary><span class="language-label">{esc(language)}</span><span>{esc(t['language'])}</span></summary><ul>{choices}</ul></details></div></header>
