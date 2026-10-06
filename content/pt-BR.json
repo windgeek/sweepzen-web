@@ -71,7 +71,7 @@
     ],
     [
       "Encerrei um programa auxiliar. Por que a remoção ainda está bloqueada?",
-      "Um app pode ter vários programas auxiliares, e um deles pode reiniciar. Salve seu trabalho, expanda as instruções, copie o nome para buscar e encontre-o no Monitor de Atividade. O método pelo Terminal é uma opção avançada. O SweepZen verifica o app selecionado a cada 2 segundos e quando você retorna; escolha Verificar novamente se necessário. Se outro programa auxiliar permanecer ativo, seu nome atual será mostrado. Encerrar não inicia a remoção: revise a página e confirme antes de continuar."
+      "Um app pode ter vários programas auxiliares, e um deles pode reiniciar. Salve seu trabalho, expanda as instruções, copie o nome para buscar e encontre-o no Monitor de Atividade. O método pelo Terminal é uma opção avançada. O SweepZen verifica o app selecionado a cada 2 segundos e quando você retorna; escolha Verificar novamente se necessário. Se outro programa auxiliar permanecer ativo, seu nome atual será mostrado. Encerrar não inicia a remoção: revise a página e confirme antes de continuar. Se ele reaparecer, você pode tentar o seguinte: Em Itens de Início de Sessão e Extensões, desative a atividade em segundo plano de uma entrada claramente associada a este app. Volte aqui e verifique novamente. Se o programa ainda estiver ativo, tente encerrá-lo outra vez no Monitor de Atividade. Uma entrada com o nome do desenvolvedor também pode afetar outros apps. Se não conseguir identificar a entrada correta, deixe-a como está e consulte as instruções de suporte do app."
     ],
     [
       "Preciso verificar Itens de Início e Extensões antes de desinstalar?",

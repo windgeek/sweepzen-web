@@ -71,7 +71,7 @@
     ],
     [
       "Ich habe ein Hintergrundprogramm beendet. Warum ist das Entfernen noch gesperrt?",
-      "Eine App kann mehrere Hintergrundprogramme haben, und ein Programm kann neu starten. Sichere deine Arbeit, klappe die Anleitung auf, kopiere den Suchnamen und suche ihn in der Aktivitätsanzeige. Die Terminal-Anleitung ist eine optionale, erweiterte Methode. SweepZen prüft die ausgewählte App alle 2 Sekunden und bei deiner Rückkehr; wähle bei Bedarf „Erneut prüfen“. Läuft noch ein anderes Programm, wird dessen aktueller Name angezeigt. Das Beenden startet keine Entfernung: Prüfe und bestätige den nächsten Schritt selbst."
+      "Eine App kann mehrere Hintergrundprogramme haben, und ein Programm kann neu starten. Sichere deine Arbeit, klappe die Anleitung auf, kopiere den Suchnamen und suche ihn in der Aktivitätsanzeige. Die Terminal-Anleitung ist eine optionale, erweiterte Methode. SweepZen prüft die ausgewählte App alle 2 Sekunden und bei deiner Rückkehr; wähle bei Bedarf „Erneut prüfen“. Läuft noch ein anderes Programm, wird dessen aktueller Name angezeigt. Das Beenden startet keine Entfernung: Prüfe und bestätige den nächsten Schritt selbst. Wenn es wieder erscheint, kannst du Folgendes versuchen: Deaktiviere unter „Anmeldeobjekte & Erweiterungen“ die Hintergrundaktivität eines Eintrags, der eindeutig zu dieser App gehört. Kehre dann zurück und prüfe erneut. Läuft das Programm noch, versuche erneut, es in der Aktivitätsanzeige zu beenden. Ein Eintrag unter dem Namen des Anbieters kann auch andere Apps betreffen. Wenn du den richtigen Eintrag nicht eindeutig erkennst, lass ihn unverändert und lies die Supporthinweise der App."
     ],
     [
       "Muss ich vor dem Deinstallieren die Anmeldeobjekte und Erweiterungen prüfen?",

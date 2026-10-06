@@ -71,7 +71,7 @@
     ],
     [
       "He detenido un proceso auxiliar. ¿Por qué sigue bloqueada la eliminación?",
-      "Una app puede tener varios procesos auxiliares, y uno puede reiniciarse. Guarda tu trabajo, despliega las instrucciones, copia el nombre para buscarlo en Monitor de Actividad. Las instrucciones de Terminal son una opción avanzada. SweepZen comprueba la app seleccionada cada 2 segundos y cuando vuelves; elige Comprobar de nuevo si hace falta. Si queda otro proceso auxiliar, se muestra su nombre actual. Detenerlo no inicia la eliminación: revisa la página y confirma antes de continuar."
+      "Una app puede tener varios procesos auxiliares, y uno puede reiniciarse. Guarda tu trabajo, despliega las instrucciones, copia el nombre para buscarlo en Monitor de Actividad. Las instrucciones de Terminal son una opción avanzada. SweepZen comprueba la app seleccionada cada 2 segundos y cuando vuelves; elige Comprobar de nuevo si hace falta. Si queda otro proceso auxiliar, se muestra su nombre actual. Detenerlo no inicia la eliminación: revisa la página y confirma antes de continuar. Si reaparece, puedes probar lo siguiente: En «Ítems de inicio y extensiones», desactiva la actividad en segundo plano de una entrada que pertenezca claramente a esta app. Vuelve aquí y comprueba de nuevo. Si el proceso sigue activo, intenta cerrarlo otra vez en Monitor de Actividad. Una entrada con el nombre del desarrollador también puede afectar a otras apps. Si no puedes identificar la entrada correcta, déjala como está y consulta las instrucciones de soporte de la app."
     ],
     [
       "¿Debo revisar Ítems de inicio y extensiones antes de desinstalar?",

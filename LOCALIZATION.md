@@ -69,3 +69,8 @@ at 320, 390 and 1280 px), including opened FAQ text and language menus, were
 checked for horizontal overflow. The French menu at 320 px needed right alignment
 when navigation wraps; this is fixed for every locale. Full screenshots and
 review contact sheets are stored separately in SweepZen/Store/QA/2026-10-06/Website.
+
+
+## Restarting helpers — 2026-10-06
+
+The helper FAQ in all nine locales now explains the optional Login Items & Extensions background-activity route. Reviewed and back-checked each translation against the app copy: only clearly associated entries should be changed; publisher entries can affect other apps; unidentified entries should stay unchanged. Returning triggers a check, not removal, and stopping every helper is not guaranteed. No privacy practice changed.

@@ -71,7 +71,7 @@
     ],
     [
       "J’ai arrêté un programme auxiliaire. Pourquoi la suppression reste-t-elle bloquée ?",
-      "Une app peut avoir plusieurs programmes auxiliaires, et l’un d’eux peut redémarrer. Enregistrez votre travail, dépliez les instructions, copiez le nom à rechercher et trouvez-le dans Moniteur d’activité. La méthode Terminal est une option avancée. SweepZen vérifie l’app sélectionnée toutes les 2 secondes et à votre retour ; choisissez Vérifier à nouveau si nécessaire. Si un autre programme reste actif, son nom actuel s’affiche. L’arrêt ne lance aucune suppression : vérifiez la page et confirmez avant de continuer."
+      "Une app peut avoir plusieurs programmes auxiliaires, et l’un d’eux peut redémarrer. Enregistrez votre travail, dépliez les instructions, copiez le nom à rechercher et trouvez-le dans Moniteur d’activité. La méthode Terminal est une option avancée. SweepZen vérifie l’app sélectionnée toutes les 2 secondes et à votre retour ; choisissez Vérifier à nouveau si nécessaire. Si un autre programme reste actif, son nom actuel s’affiche. L’arrêt ne lance aucune suppression : vérifiez la page et confirmez avant de continuer. S’il réapparaît, vous pouvez essayer ceci : Dans « Ouverture et extensions », désactivez l’activité en arrière-plan d’une entrée clairement associée à cette app, puis revenez ici et vérifiez à nouveau. Si le programme fonctionne encore, essayez de le quitter à nouveau dans Moniteur d’activité. Une entrée au nom de l’éditeur peut aussi concerner d’autres apps. Si vous ne pouvez pas identifier la bonne entrée, laissez-la inchangée et consultez les instructions d’assistance de l’app."
     ],
     [
       "Faut-il vérifier Ouverture et extensions avant de désinstaller ?",

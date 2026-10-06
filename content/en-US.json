@@ -71,7 +71,7 @@
     ],
     [
       "I stopped a background program. Why is removal still blocked?",
-      "An app may have several helpers, or a helper may restart. Save your work, expand the stop instructions, copy the search name and find it in Activity Monitor. Advanced Terminal instructions are optional. SweepZen checks the selected app every 2 seconds and when you return; choose Check again if needed. If another helper remains, its current name is shown. Stopping a helper does not start removal: review the page and confirm before continuing."
+      "An app may have several helpers, or a helper may restart. Save your work, expand the stop instructions, copy the search name and find it in Activity Monitor. Advanced Terminal instructions are optional. SweepZen checks the selected app every 2 seconds and when you return; choose Check again if needed. If another helper remains, its current name is shown. Stopping a helper does not start removal: review the page and confirm before continuing. If it reappears, you can try this: In Login Items & Extensions, turn off background activity for an entry clearly associated with this app, then return and check again. If the helper still runs, try quitting it again in Activity Monitor. A publisher entry may also affect other apps. If you cannot identify the right entry, leave it unchanged and check the app’s support instructions."
     ],
     [
       "Must I check Login Items & Extensions before uninstalling?",
