@@ -1,15 +1,31 @@
 {
   "language": "Deutsch",
-  "nav": ["Hilfe", "Datenschutz", "Sprache"],
+  "nav": [
+    "Hilfe",
+    "Datenschutz",
+    "Sprache"
+  ],
   "supportTitle": "SweepZen — Hilfe & Support",
   "supportDescription": "Hilfe für SweepZen auf dem Mac: Ordnerzugriff, Speicherprüfung, Deinstallation, Überreste, Erweiterungen, Wiederherstellung und Support.",
   "eyebrow": "Hilfe & Support",
   "hero": "Mehr Klarheit auf deinem Mac.",
   "lead": "Verstehe, was Speicherplatz belegt, prüfe, was weg kann, und entscheide selbst.",
   "cards": [
-    ["01 / SCANNEN", "Erst prüfen, dann aufräumen", "Scanne App-Caches und Build-Dateien. Jedes Ergebnis erklärt, was es ist und was sich beim Entfernen ändert."],
-    ["02 / ENTDECKEN", "Den Überblick gewinnen", "Erkunde die Speicherkarte nach Kategorien und folge den Ordnern zu den größten Dateien."],
-    ["03 / DEINSTALLIEREN", "Entscheiden, was gehen darf", "Prüfe Apps und zugehörige Dateien. Geteilte Daten bleiben geschützt. In SweepZen entfernte Objekte landen im Papierkorb."]
+    [
+      "01 / SCANNEN",
+      "Erst prüfen, dann aufräumen",
+      "Scanne App-Caches und Build-Dateien. Jedes Ergebnis erklärt, was es ist und was sich beim Entfernen ändert."
+    ],
+    [
+      "02 / ENTDECKEN",
+      "Den Überblick gewinnen",
+      "Erkunde die Speicherkarte nach Kategorien und folge den Ordnern zu den größten Dateien."
+    ],
+    [
+      "03 / DEINSTALLIEREN",
+      "Entscheiden, was gehen darf",
+      "Prüfe Apps und zugehörige Dateien. Geteilte Daten bleiben geschützt. In SweepZen entfernte Objekte landen im Papierkorb."
+    ]
   ],
   "startTitle": "Erste Schritte",
   "steps": [
@@ -21,14 +37,46 @@
   ],
   "faqTitle": "Häufige Fragen",
   "faq": [
-    ["Warum gibt es nicht mehr freien Speicher?", "Dateien im Papierkorb belegen meist weiterhin Speicher. Prüfe sie im Finder und leere den Papierkorb selbst, wenn du sicher bist. Geteilter APFS-Speicher und lokale Schnappschüsse können den freigegebenen Platz beeinflussen. SweepZen leert nie den Papierkorb und löscht keine Time Machine-Schnappschüsse."],
-    ["Wie stelle ich eine Datei wieder her?", "Öffne den Papierkorb im Finder. Nutze „Zurücklegen“, falls verfügbar, oder verschiebe die Datei an ihren ursprünglichen Ort. Das ist nur möglich, solange du den Papierkorb nicht geleert hast."],
-    ["Warum wurde ein Objekt übersprungen oder behalten?", "Geschützte Dateien, geteilte Daten und Daten, die eine andere App-Kopie noch verwenden könnte, bleiben erhalten. Auch Kopien außerhalb von Applications zählen. Überreste, die eine andere Kopie nutzt, zeigen Ort und Grund und lassen sich nicht zum Entfernen auswählen. Ist Zuordnung oder Zugriff unklar, bleibt das Objekt erhalten."],
-    ["Wie erneuere ich den Ordnerzugriff?", "Öffne die Einstellungen von SweepZen und gewähre den Zugriff erneut. Wähle zum Scannen deinen Benutzerordner. macOS kann bestimmte Orte weiterhin schützen; SweepZen umgeht diese Einschränkungen nicht."],
-    ["Warum braucht die Deinstallation Zugriff auf Applications?", "Der Ordner /Applications liegt außerhalb deines Benutzerordners. macOS muss den Zugriff gesondert erlauben, bevor SweepZen Apps daraus in den Papierkorb verschieben kann. Du kannst die Anfrage abbrechen."],
-    ["Kann SweepZen Objekte auf Systemebene entfernen?", "Objekte, die Administratorrechte erfordern, lassen sich im Finder anzeigen, aber nicht durch SweepZen entfernen. Die Befehle im Werkzeugkasten erklären Wirkung und Aufwand. Du kopierst sie und führst sie selbst aus; SweepZen führt nie Administratorbefehle aus."],
-    ["Wie funktionieren Hintergrundobjekte und Finder-Menüs?", "SweepZen zeigt Hintergrund-Apps, Erweiterungen und die Herkunft von Finder-Menüeinträgen. Folge bei Bedarf den Hinweisen zu macOS-Einstellungen oder zum Beenden von Diensten. Die Standard-App für gängige Dateitypen kannst du direkt in SweepZen wählen. Diese Werkzeuge löschen keine System-Menüeinträge automatisch."],
-    ["Lädt SweepZen meine Dateien hoch?", "Nein. Die App verarbeitet Dateiinformationen lokal, stellt keine Netzwerkanfragen und enthält keine Konten, Werbung, Analyse oder Upload-Dienste. Die Datenschutzerklärung erläutert Website-Hosting und Support-Nachrichten gesondert."]
+    [
+      "Warum gibt es nicht mehr freien Speicher?",
+      "Dateien im Papierkorb belegen meist weiterhin Speicher. Prüfe sie im Finder und leere den Papierkorb selbst, wenn du sicher bist. Geteilter APFS-Speicher und lokale Schnappschüsse können den freigegebenen Platz beeinflussen. SweepZen leert nie den Papierkorb und löscht keine Time Machine-Schnappschüsse."
+    ],
+    [
+      "Wie stelle ich eine Datei wieder her?",
+      "Öffne den Papierkorb im Finder. Nutze „Zurücklegen“, falls verfügbar, oder verschiebe die Datei an ihren ursprünglichen Ort. Das ist nur möglich, solange du den Papierkorb nicht geleert hast."
+    ],
+    [
+      "Warum wurde ein Objekt übersprungen oder behalten?",
+      "Geschützte Dateien, geteilte Daten und Daten, die eine andere App-Kopie noch verwenden könnte, bleiben erhalten. Auch Kopien außerhalb von Applications zählen. Überreste, die eine andere Kopie nutzt, zeigen Ort und Grund und lassen sich nicht zum Entfernen auswählen. Ist Zuordnung oder Zugriff unklar, bleibt das Objekt erhalten."
+    ],
+    [
+      "Wie erneuere ich den Ordnerzugriff?",
+      "Öffne die Einstellungen von SweepZen und gewähre den Zugriff erneut. Wähle zum Scannen deinen Benutzerordner. macOS kann bestimmte Orte weiterhin schützen; SweepZen umgeht diese Einschränkungen nicht."
+    ],
+    [
+      "Warum braucht die Deinstallation Zugriff auf Applications?",
+      "Der Ordner Programme benötigt eine eigene Zugriffsfreigabe. Wähle bei Aufforderung „Ordner Programme freigeben“. Eine Ordnerfreigabe verleiht keine Administratorrechte. Wähle bei einer vom Administrator installierten App „Im Finder anzeigen“, bewege sie in den Papierkorb und authentifiziere dich, falls macOS dazu auffordert. Prüfe danach die zugehörigen Daten in SweepZen. „App-Verwaltung“ und „Festplattenvollzugriff“ sind separate Systemrechte; öffne die passenden Einstellungen nur bei entsprechender Aufforderung."
+    ],
+    [
+      "Kann SweepZen Objekte auf Systemebene entfernen?",
+      "Objekte, die Administratorrechte erfordern, lassen sich im Finder anzeigen, aber nicht durch SweepZen entfernen. Die Befehle im Werkzeugkasten erklären Wirkung und Aufwand. Du kopierst sie und führst sie selbst aus; SweepZen führt nie Administratorbefehle aus."
+    ],
+    [
+      "Wie funktionieren Hintergrundobjekte und Finder-Menüs?",
+      "SweepZen zeigt Hintergrund-Apps, Erweiterungen und die Herkunft von Finder-Menüeinträgen. Folge bei Bedarf den Hinweisen zu macOS-Einstellungen oder zum Beenden von Diensten. Die Standard-App für gängige Dateitypen kannst du direkt in SweepZen wählen. Diese Werkzeuge löschen keine System-Menüeinträge automatisch."
+    ],
+    [
+      "Lädt SweepZen meine Dateien hoch?",
+      "Nein. Die App verarbeitet Dateiinformationen lokal, stellt keine Netzwerkanfragen und enthält keine Konten, Werbung, Analyse oder Upload-Dienste. Die Datenschutzerklärung erläutert Website-Hosting und Support-Nachrichten gesondert."
+    ],
+    [
+      "Ich habe ein Hintergrundprogramm beendet. Warum ist das Entfernen noch gesperrt?",
+      "Eine App kann mehrere Hintergrundprogramme haben, und ein Programm kann neu starten. Sichere deine Arbeit, klappe die Anleitung auf, kopiere den Suchnamen und suche ihn in der Aktivitätsanzeige. Die Terminal-Anleitung ist eine optionale, erweiterte Methode. SweepZen prüft die ausgewählte App alle 2 Sekunden und bei deiner Rückkehr; wähle bei Bedarf „Erneut prüfen“. Läuft noch ein anderes Programm, wird dessen aktueller Name angezeigt. Das Beenden startet keine Entfernung: Prüfe und bestätige den nächsten Schritt selbst."
+    ],
+    [
+      "Muss ich vor dem Deinstallieren die Anmeldeobjekte und Erweiterungen prüfen?",
+      "Normalerweise nicht. Ein mitgeliefertes Anmeldeobjekt ist nicht unbedingt aktiviert. Prüfe die Einstellungen nach dem Entfernen nur, wenn der Eintrag noch erscheint oder du das Startverhalten ändern möchtest. Ein Eintrag allein bedeutet nicht, dass die App läuft. macOS verwaltet diese Liste; das Leeren des Papierkorbs garantiert nicht, dass der Eintrag sofort verschwindet. Nutze bei Bedarf den verfügbaren Schalter oder die Entfernen-Taste."
+    ]
   ],
   "contactTitle": "Support kontaktieren",
   "contactHeading": "Erzähl uns, was passiert ist.",
@@ -39,30 +87,49 @@
   "privacyDescription": "Datenschutz bei SweepZen: lokale Verarbeitung, Ordnerberechtigungen, Support-Nachrichten, GitHub Pages und Apple-Dienste.",
   "privacyEyebrow": "Deine Dateien, auf deinem Mac",
   "privacyHeading": "Datenschutzerklärung",
-  "dates": "Gültig seit: 5. September 2026 · Aktualisiert: 5. Oktober 2026 · Entwickler: Song Li",
+  "dates": "Gültig seit: 5. September 2026 · Aktualisiert: 6. Oktober 2026 · Entwickler: Song Li",
   "privacySections": [
-    ["Die SweepZen-App", [
-      "SweepZen verarbeitet Datei- und App-Informationen auf deinem Mac. Die App erhebt oder übermittelt keine Dateien, Pfade, Scanergebnisse, Nutzungsaktivitäten, Gerätekennungen oder personenbezogenen Informationen an den Entwickler. Sie enthält keine Konten, Werbung, Analyse-SDKs von Drittanbietern oder Tracking.",
-      "Die App hat keine Berechtigung für Netzwerk-Client-Verbindungen und stellt keine Netzwerkanfragen. Support- und Datenschutzlinks öffnen sich im Systembrowser."
-    ]],
-    ["Lokal verwendete Informationen", [
-      "Wenn du einen Scan, die Speicherkarte oder eine App-Prüfung anforderst, liest SweepZen Dateinamen und Pfade, Größen und Zeitangaben, App-Metadaten und Informationen über laufende Apps. Damit erklärt es den Speicherverbrauch und schützt genutzte Daten. Einige Konfigurations- und Herkunftsdateien werden lokal gelesen, um Daten zuzuordnen.",
-      "macOS erlaubt den Ordnerzugriff. Zugriffslesezeichen und Einstellungen, darunter Sprache, Erscheinungsbild und Datum der letzten abgeschlossenen Bereinigung, werden auf deinem Mac gespeichert. Die App merkt sich auch Kennungen und Namen der aufgelisteten Apps, um Überreste zu erkennen. Scanergebnisse und Auswahlen bleiben während der Nutzung im Arbeitsspeicher. Eine Bereinigungsliste wird nur beim Export an einem von dir gewählten Ort gespeichert.",
-      "In SweepZen entfernte Objekte landen im macOS-Papierkorb. Die App leert ihn nicht automatisch. macOS kann den Zugriff auf bestimmte Dateien trotz Ordnerfreigabe einschränken."
-    ]],
-    ["Support-Nachrichten", [
-      "Wenn du dem Entwickler eine E-Mail sendest, verarbeitet der E-Mail-Dienst deine Adresse, Nachricht und Anhänge. Diese Informationen dienen der Antwort und Fehlerbehebung und werden nur so lange aufbewahrt, wie es für den Support und geltende Verpflichtungen nötig ist. Sende keine privaten Dateien, Passwörter oder unverdeckten sensiblen Screenshots.",
-      "GitHub-Issues sind öffentlich und werden von GitHub gemäß dessen Datenschutzerklärung verarbeitet. Du kannst stattdessen eine E-Mail senden. Bitte den Entwickler um Löschung einer Support-E-Mail; geltende Aufbewahrungspflichten bleiben vorbehalten."
-    ]],
-    ["Diese Website und Apple-Dienste", [
-      "Diese Website wird auf GitHub Pages gehostet. Sie fügt keine Analyse, Werbung, Tracking-Cookies oder Drittanbieter-Schriften hinzu. GitHub kann technische Anfragedaten wie IP-Adressen verarbeiten, um den Hosting-Dienst zu betreiben und abzusichern.",
-      "App Store-Käufe, Downloads und Diagnosedaten, die du mit Apple teilst, verarbeitet Apple nach seinen eigenen Richtlinien und deinen Einstellungen."
-    ]],
-    ["Änderungen und Kontakt", [
-      "Ändert sich die Datenverarbeitung der App, wird diese Erklärung mit einem neuen Gültigkeitsdatum aktualisiert. Bei Datenschutzfragen erreichst du Song Li über die unten angegebene E-Mail-Adresse."
-    ]]
+    [
+      "Die SweepZen-App",
+      [
+        "SweepZen verarbeitet Datei- und App-Informationen auf deinem Mac. Die App erhebt oder übermittelt keine Dateien, Pfade, Scanergebnisse, Nutzungsaktivitäten, Gerätekennungen oder personenbezogenen Informationen an den Entwickler. Sie enthält keine Konten, Werbung, Analyse-SDKs von Drittanbietern oder Tracking.",
+        "Die App hat keine Berechtigung für Netzwerk-Client-Verbindungen und stellt keine Netzwerkanfragen. Support- und Datenschutzlinks öffnen sich im Systembrowser."
+      ]
+    ],
+    [
+      "Lokal verwendete Informationen",
+      [
+        "Wenn du einen Scan, die Speicherkarte oder eine App-Prüfung anforderst, liest SweepZen Dateinamen und Pfade, Größen und Zeitangaben, App-Metadaten und Informationen über laufende Apps. Damit erklärt es den Speicherverbrauch und schützt genutzte Daten. Einige Konfigurations- und Herkunftsdateien werden lokal gelesen, um Daten zuzuordnen. Dazu gehört die Prüfung von Namen und ausführbaren Pfaden von Hintergrundprozessen, um zu erkennen, wenn Hintergrundprogramme einer App beendet werden oder neu starten.",
+        "macOS erlaubt den Ordnerzugriff. Zugriffslesezeichen und Einstellungen, darunter Sprache, Erscheinungsbild und Datum der letzten abgeschlossenen Bereinigung, werden auf deinem Mac gespeichert. Die App merkt sich auch Kennungen und Namen der aufgelisteten Apps, um Überreste zu erkennen. Scanergebnisse und Auswahlen bleiben während der Nutzung im Arbeitsspeicher. Eine Bereinigungsliste wird nur beim Export an einem von dir gewählten Ort gespeichert.",
+        "In SweepZen entfernte Objekte landen im macOS-Papierkorb. Die App leert ihn nicht automatisch. macOS kann den Zugriff auf bestimmte Dateien trotz Ordnerfreigabe einschränken.",
+        "Wenn du eine Kopiertaste wählst, schreibt SweepZen den angezeigten Suchnamen, Pfad oder Befehl in die Systemzwischenablage, damit du ihn in einer anderen App einfügen kannst. Bereits vorhandene Inhalte werden nicht gelesen; der kopierte Text wird nicht an den Entwickler gesendet."
+      ]
+    ],
+    [
+      "Support-Nachrichten",
+      [
+        "Wenn du dem Entwickler eine E-Mail sendest, verarbeitet der E-Mail-Dienst deine Adresse, Nachricht und Anhänge. Diese Informationen dienen der Antwort und Fehlerbehebung und werden nur so lange aufbewahrt, wie es für den Support und geltende Verpflichtungen nötig ist. Sende keine privaten Dateien, Passwörter oder unverdeckten sensiblen Screenshots.",
+        "GitHub-Issues sind öffentlich und werden von GitHub gemäß dessen Datenschutzerklärung verarbeitet. Du kannst stattdessen eine E-Mail senden. Bitte den Entwickler um Löschung einer Support-E-Mail; geltende Aufbewahrungspflichten bleiben vorbehalten."
+      ]
+    ],
+    [
+      "Diese Website und Apple-Dienste",
+      [
+        "Diese Website wird auf GitHub Pages gehostet. Sie fügt keine Analyse, Werbung, Tracking-Cookies oder Drittanbieter-Schriften hinzu. GitHub kann technische Anfragedaten wie IP-Adressen verarbeiten, um den Hosting-Dienst zu betreiben und abzusichern.",
+        "App Store-Käufe, Downloads und Diagnosedaten, die du mit Apple teilst, verarbeitet Apple nach seinen eigenen Richtlinien und deinen Einstellungen."
+      ]
+    ],
+    [
+      "Änderungen und Kontakt",
+      [
+        "Ändert sich die Datenverarbeitung der App, wird diese Erklärung mit einem neuen Gültigkeitsdatum aktualisiert. Bei Datenschutzfragen erreichst du Song Li über die unten angegebene E-Mail-Adresse."
+      ]
+    ]
   ],
-  "policyLinks": ["GitHub-Datenschutzerklärung", "Apple-Datenschutzerklärung"],
+  "policyLinks": [
+    "GitHub-Datenschutzerklärung",
+    "Apple-Datenschutzerklärung"
+  ],
   "contactLabel": "Kontakt",
   "legacyChinese": "简体中文版本 →"
 }

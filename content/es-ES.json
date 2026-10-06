@@ -1,15 +1,31 @@
 {
   "language": "Español",
-  "nav": ["Ayuda", "Privacidad", "Idioma"],
+  "nav": [
+    "Ayuda",
+    "Privacidad",
+    "Idioma"
+  ],
   "supportTitle": "SweepZen — Ayuda y soporte",
   "supportDescription": "Ayuda de SweepZen para Mac: acceso a carpetas, almacenamiento, desinstalación, restos, extensiones, recuperación y soporte.",
   "eyebrow": "Ayuda y soporte",
   "hero": "Un poco de claridad para tu Mac.",
   "lead": "Entiende qué ocupa espacio, revisa qué puedes quitar y mantén la decisión en tus manos.",
   "cards": [
-    ["01 / ANALIZAR", "Revisa antes de limpiar", "Analiza cachés de apps y archivos de compilación. Cada resultado explica qué es y qué cambia al eliminarlo."],
-    ["02 / EXPLORAR", "Ve el conjunto", "Explora el mapa de almacenamiento por categoría y sigue las carpetas hasta lo que más espacio ocupa."],
-    ["03 / DESINSTALAR", "Elige qué se va", "Revisa las apps y sus archivos asociados. Los datos compartidos siguen protegidos. Lo eliminado en SweepZen va a la Papelera."]
+    [
+      "01 / ANALIZAR",
+      "Revisa antes de limpiar",
+      "Analiza cachés de apps y archivos de compilación. Cada resultado explica qué es y qué cambia al eliminarlo."
+    ],
+    [
+      "02 / EXPLORAR",
+      "Ve el conjunto",
+      "Explora el mapa de almacenamiento por categoría y sigue las carpetas hasta lo que más espacio ocupa."
+    ],
+    [
+      "03 / DESINSTALAR",
+      "Elige qué se va",
+      "Revisa las apps y sus archivos asociados. Los datos compartidos siguen protegidos. Lo eliminado en SweepZen va a la Papelera."
+    ]
   ],
   "startTitle": "Primeros pasos",
   "steps": [
@@ -21,14 +37,46 @@
   ],
   "faqTitle": "Preguntas frecuentes",
   "faq": [
-    ["¿Por qué no ha aumentado el espacio libre?", "Los archivos en la Papelera normalmente siguen ocupando espacio. Revísalos en Finder y vacía la Papelera cuando estés seguro. El almacenamiento compartido APFS y las instantáneas locales pueden afectar al espacio recuperado. SweepZen nunca vacía la Papelera ni elimina instantáneas de Time Machine."],
-    ["¿Cómo recupero un archivo?", "Abre la Papelera en Finder. Usa «Sacar de la papelera» si está disponible, o mueve el archivo a su ubicación original. Solo puedes recuperarlo así mientras no hayas vaciado la Papelera."],
-    ["¿Por qué se ha omitido o conservado un elemento?", "Se conservan los archivos protegidos, los datos compartidos y los datos que otra copia de una app podría seguir usando. También se consideran las copias fuera de Applications. Los restos usados por otra copia muestran su ubicación y el motivo de conservación, y no pueden seleccionarse para eliminarlos. Si no se puede confirmar su procedencia o el acceso, se conservan."],
-    ["¿Cómo renuevo el acceso a una carpeta?", "Abre los ajustes de SweepZen y vuelve a permitir el acceso a la carpeta correspondiente. Para analizar, elige tu carpeta de inicio. macOS puede seguir restringiendo algunas ubicaciones; SweepZen no puede saltarse esas restricciones."],
-    ["¿Por qué desinstalar requiere acceso a Applications?", "La carpeta /Applications está fuera de tu carpeta de inicio. macOS exige un permiso independiente antes de que SweepZen pueda mover sus apps a la Papelera. Puedes cancelar la solicitud."],
-    ["¿Puede SweepZen eliminar elementos del sistema?", "Los elementos que requieren autorización de administrador pueden mostrarse en Finder, pero SweepZen no puede eliminarlos. Los comandos de la caja de herramientas explican sus efectos y costes. Tú los copias y ejecutas; SweepZen nunca ejecuta comandos de administrador."],
-    ["¿Cómo funcionan los elementos en segundo plano y los menús de Finder?", "SweepZen muestra apps en segundo plano, extensiones y el origen de las entradas de los menús de Finder. Sigue, cuando haga falta, las indicaciones para los ajustes de macOS o para detener servicios. Puedes elegir en SweepZen la app predeterminada para los tipos de archivo habituales. Estas herramientas no eliminan automáticamente entradas de los menús del sistema."],
-    ["¿SweepZen sube mis archivos?", "No. La app procesa la información de archivos localmente, no hace solicitudes de red y no incluye cuentas, anuncios, análisis ni servicio de subida. La política de privacidad explica por separado el alojamiento web y los mensajes de soporte."]
+    [
+      "¿Por qué no ha aumentado el espacio libre?",
+      "Los archivos en la Papelera normalmente siguen ocupando espacio. Revísalos en Finder y vacía la Papelera cuando estés seguro. El almacenamiento compartido APFS y las instantáneas locales pueden afectar al espacio recuperado. SweepZen nunca vacía la Papelera ni elimina instantáneas de Time Machine."
+    ],
+    [
+      "¿Cómo recupero un archivo?",
+      "Abre la Papelera en Finder. Usa «Sacar de la papelera» si está disponible, o mueve el archivo a su ubicación original. Solo puedes recuperarlo así mientras no hayas vaciado la Papelera."
+    ],
+    [
+      "¿Por qué se ha omitido o conservado un elemento?",
+      "Se conservan los archivos protegidos, los datos compartidos y los datos que otra copia de una app podría seguir usando. También se consideran las copias fuera de Applications. Los restos usados por otra copia muestran su ubicación y el motivo de conservación, y no pueden seleccionarse para eliminarlos. Si no se puede confirmar su procedencia o el acceso, se conservan."
+    ],
+    [
+      "¿Cómo renuevo el acceso a una carpeta?",
+      "Abre los ajustes de SweepZen y vuelve a permitir el acceso a la carpeta correspondiente. Para analizar, elige tu carpeta de inicio. macOS puede seguir restringiendo algunas ubicaciones; SweepZen no puede saltarse esas restricciones."
+    ],
+    [
+      "¿Por qué desinstalar requiere acceso a Applications?",
+      "La carpeta Aplicaciones necesita una autorización independiente. Si SweepZen la solicita, elige Autorizar carpeta Aplicaciones. Este acceso no concede privilegios de administrador. Para una app instalada por un administrador, elige Mostrar en el Finder, muévela a la Papelera y autentícate si macOS lo pide; después vuelve a SweepZen para revisar sus datos. Gestión de apps y Acceso total al disco son permisos del sistema independientes; abre sus ajustes solo cuando la app indique que son necesarios."
+    ],
+    [
+      "¿Puede SweepZen eliminar elementos del sistema?",
+      "Los elementos que requieren autorización de administrador pueden mostrarse en Finder, pero SweepZen no puede eliminarlos. Los comandos de la caja de herramientas explican sus efectos y costes. Tú los copias y ejecutas; SweepZen nunca ejecuta comandos de administrador."
+    ],
+    [
+      "¿Cómo funcionan los elementos en segundo plano y los menús de Finder?",
+      "SweepZen muestra apps en segundo plano, extensiones y el origen de las entradas de los menús de Finder. Sigue, cuando haga falta, las indicaciones para los ajustes de macOS o para detener servicios. Puedes elegir en SweepZen la app predeterminada para los tipos de archivo habituales. Estas herramientas no eliminan automáticamente entradas de los menús del sistema."
+    ],
+    [
+      "¿SweepZen sube mis archivos?",
+      "No. La app procesa la información de archivos localmente, no hace solicitudes de red y no incluye cuentas, anuncios, análisis ni servicio de subida. La política de privacidad explica por separado el alojamiento web y los mensajes de soporte."
+    ],
+    [
+      "He detenido un proceso auxiliar. ¿Por qué sigue bloqueada la eliminación?",
+      "Una app puede tener varios procesos auxiliares, y uno puede reiniciarse. Guarda tu trabajo, despliega las instrucciones, copia el nombre para buscarlo en Monitor de Actividad. Las instrucciones de Terminal son una opción avanzada. SweepZen comprueba la app seleccionada cada 2 segundos y cuando vuelves; elige Comprobar de nuevo si hace falta. Si queda otro proceso auxiliar, se muestra su nombre actual. Detenerlo no inicia la eliminación: revisa la página y confirma antes de continuar."
+    ],
+    [
+      "¿Debo revisar Ítems de inicio y extensiones antes de desinstalar?",
+      "Normalmente no. Que una app incluya un componente de inicio no demuestra que esté activado. Después de eliminarla, revisa los ajustes solo si la entrada sigue apareciendo o quieres cambiar el comportamiento al iniciar sesión. Una entrada no significa que la app siga ejecutándose. macOS gestiona la lista; vaciar la Papelera no garantiza que la entrada desaparezca inmediatamente. Usa el interruptor o el botón de eliminación disponible si es necesario."
+    ]
   ],
   "contactTitle": "Contactar con soporte",
   "contactHeading": "Cuéntanos qué ha pasado.",
@@ -39,30 +87,49 @@
   "privacyDescription": "Privacidad de SweepZen: procesamiento local, permisos de carpetas, soporte, GitHub Pages y servicios de Apple.",
   "privacyEyebrow": "Tus archivos, en tu Mac",
   "privacyHeading": "Política de privacidad",
-  "dates": "En vigor desde: 5 de septiembre de 2026 · Actualizada: 5 de octubre de 2026 · Desarrollador: Song Li",
+  "dates": "En vigor desde: 5 de septiembre de 2026 · Actualizada: 6 de octubre de 2026 · Desarrollador: Song Li",
   "privacySections": [
-    ["La app SweepZen", [
-      "SweepZen procesa la información de archivos y apps en tu Mac. No recopila ni transmite al desarrollador tus archivos, rutas, resultados de análisis, actividad de uso, identificadores del dispositivo ni información personal. No tiene cuentas, anuncios, SDK de análisis de terceros ni seguimiento.",
-      "La app no dispone del permiso de cliente de red y no hace solicitudes de red. Los enlaces de soporte o privacidad se abren en el navegador del sistema."
-    ]],
-    ["Información utilizada localmente", [
-      "Cuando solicitas un análisis, un mapa de almacenamiento o una revisión de apps, SweepZen lee nombres y rutas de archivos, tamaños y fechas, metadatos de apps e información de apps en ejecución. Lo hace para explicar el uso del disco y proteger los datos en uso. Algunos archivos de configuración y procedencia se leen localmente para identificar a qué app pertenecen los datos.",
-      "macOS concede acceso a las carpetas. Los marcadores de acceso seguro y las preferencias, como idioma, apariencia y fecha de la última limpieza completada, se guardan en tu Mac. La app también recuerda los identificadores y nombres de las apps que ha listado para reconocer restos. Los resultados y selecciones se mantienen en memoria durante el uso. Solo se guarda una lista de limpieza en la ubicación elegida cuando la exportas.",
-      "Los elementos eliminados dentro de SweepZen van a la Papelera de macOS. La app no la vacía automáticamente. macOS puede limitar algunos archivos incluso después de conceder acceso a una carpeta."
-    ]],
-    ["Mensajes de soporte", [
-      "Si escribes al desarrollador, el servicio de correo procesa tu dirección, mensaje y archivos adjuntos. Esta información se utiliza para responder y resolver el problema, y se conserva solo mientras sea necesario para el soporte y las obligaciones aplicables. No envíes archivos privados, contraseñas ni capturas sensibles sin ocultar.",
-      "Las incidencias de GitHub son públicas y GitHub las procesa conforme a su declaración de privacidad. Puedes usar el correo en su lugar. Contacta con el desarrollador para solicitar que elimine un correo de soporte, sujeto a las obligaciones de conservación aplicables."
-    ]],
-    ["Este sitio y los servicios de Apple", [
-      "Este sitio está alojado en GitHub Pages. No añade análisis, anuncios, cookies de seguimiento ni fuentes de terceros. GitHub puede procesar información técnica de solicitudes, como direcciones IP, para operar y proteger su alojamiento.",
-      "Las compras y descargas del App Store, y los diagnósticos que decidas compartir con Apple, los gestiona Apple según sus propias políticas y tus ajustes."
-    ]],
-    ["Cambios y contacto", [
-      "Si cambia el tratamiento de datos de la app, esta política se actualizará con una nueva fecha de entrada en vigor. Para preguntas de privacidad, contacta con Song Li en la dirección de correo de abajo."
-    ]]
+    [
+      "La app SweepZen",
+      [
+        "SweepZen procesa la información de archivos y apps en tu Mac. No recopila ni transmite al desarrollador tus archivos, rutas, resultados de análisis, actividad de uso, identificadores del dispositivo ni información personal. No tiene cuentas, anuncios, SDK de análisis de terceros ni seguimiento.",
+        "La app no dispone del permiso de cliente de red y no hace solicitudes de red. Los enlaces de soporte o privacidad se abren en el navegador del sistema."
+      ]
+    ],
+    [
+      "Información utilizada localmente",
+      [
+        "Cuando solicitas un análisis, un mapa de almacenamiento o una revisión de apps, SweepZen lee nombres y rutas de archivos, tamaños y fechas, metadatos de apps e información de apps en ejecución. Lo hace para explicar el uso del disco y proteger los datos en uso. Algunos archivos de configuración y procedencia se leen localmente para identificar a qué app pertenecen los datos. Esto incluye comprobar los nombres y las rutas de los ejecutables de procesos en segundo plano para detectar cuándo los procesos auxiliares de una app se detienen o reinician.",
+        "macOS concede acceso a las carpetas. Los marcadores de acceso seguro y las preferencias, como idioma, apariencia y fecha de la última limpieza completada, se guardan en tu Mac. La app también recuerda los identificadores y nombres de las apps que ha listado para reconocer restos. Los resultados y selecciones se mantienen en memoria durante el uso. Solo se guarda una lista de limpieza en la ubicación elegida cuando la exportas.",
+        "Los elementos eliminados dentro de SweepZen van a la Papelera de macOS. La app no la vacía automáticamente. macOS puede limitar algunos archivos incluso después de conceder acceso a una carpeta.",
+        "Cuando eliges un botón de copia, SweepZen coloca el nombre de búsqueda, la ruta o el comando mostrado en el portapapeles del sistema para que puedas pegarlo en otra app. No lee el contenido anterior del portapapeles ni envía el texto copiado al desarrollador."
+      ]
+    ],
+    [
+      "Mensajes de soporte",
+      [
+        "Si escribes al desarrollador, el servicio de correo procesa tu dirección, mensaje y archivos adjuntos. Esta información se utiliza para responder y resolver el problema, y se conserva solo mientras sea necesario para el soporte y las obligaciones aplicables. No envíes archivos privados, contraseñas ni capturas sensibles sin ocultar.",
+        "Las incidencias de GitHub son públicas y GitHub las procesa conforme a su declaración de privacidad. Puedes usar el correo en su lugar. Contacta con el desarrollador para solicitar que elimine un correo de soporte, sujeto a las obligaciones de conservación aplicables."
+      ]
+    ],
+    [
+      "Este sitio y los servicios de Apple",
+      [
+        "Este sitio está alojado en GitHub Pages. No añade análisis, anuncios, cookies de seguimiento ni fuentes de terceros. GitHub puede procesar información técnica de solicitudes, como direcciones IP, para operar y proteger su alojamiento.",
+        "Las compras y descargas del App Store, y los diagnósticos que decidas compartir con Apple, los gestiona Apple según sus propias políticas y tus ajustes."
+      ]
+    ],
+    [
+      "Cambios y contacto",
+      [
+        "Si cambia el tratamiento de datos de la app, esta política se actualizará con una nueva fecha de entrada en vigor. Para preguntas de privacidad, contacta con Song Li en la dirección de correo de abajo."
+      ]
+    ]
   ],
-  "policyLinks": ["Declaración de privacidad de GitHub", "Política de privacidad de Apple"],
+  "policyLinks": [
+    "Declaración de privacidad de GitHub",
+    "Política de privacidad de Apple"
+  ],
   "contactLabel": "Contacto",
   "legacyChinese": "简体中文版本 →"
 }

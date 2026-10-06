@@ -46,3 +46,26 @@ into Simplified Chinese. Other locales have complete independent pages.
 
 Browser screenshots and DOM layout records are kept in the separate SweepZen
 workspace under Store/QA/2026-10-05/Website; they are not part of the public site.
+
+## Support and privacy clarification — 2026-10-06
+
+The nine locales now explain folder access versus administrator authorization,
+remaining or restarted background helpers, and optional post-removal login-item
+checks. Search-name copying and rechecking match the revised 1.2 interface. All
+added translations were reviewed against the English source and back-checked for
+these preserved meanings: no administrator privilege from a folder grant; no
+automatic removal when a helper stops; no guarantee that emptying Trash clears a
+macOS settings record. German retains the site's established informal address.
+
+Privacy text now explicitly describes local process-name/executable-path checks
+and user-triggered clipboard writes. Existing clipboard contents are not read.
+The original effective date remains unchanged; the clarification date is October
+6. No new collection, upload, tracking or external transmission is introduced.
+This was checked against the app's ProcessProbe, UninstallModel, clipboard writes,
+entitlements and privacy manifest.
+
+Regeneration and 18-page checks passed. All 54 support/privacy layouts (9 locales
+at 320, 390 and 1280 px), including opened FAQ text and language menus, were
+checked for horizontal overflow. The French menu at 320 px needed right alignment
+when navigation wraps; this is fixed for every locale. Full screenshots and
+review contact sheets are stored separately in SweepZen/Store/QA/2026-10-06/Website.

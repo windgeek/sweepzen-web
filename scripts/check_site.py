@@ -29,8 +29,8 @@ checked=0
 for locale in LOCALES:
     data=json.loads((ROOT/'content'/f'{locale}.json').read_text())
     assert set(data)==set(source),locale
-    assert len(data['cards'])==3 and len(data['steps'])==5 and len(data['faq'])==8,locale
-    assert [len(p) for h,p in data['privacySections']]==[2,3,2,2,1],locale
+    assert len(data['cards'])==3 and len(data['steps'])==5 and len(data['faq'])==10,locale
+    assert [len(p) for h,p in data['privacySections']]==[2,4,2,2,1],locale
     assert '2026' in data['dates'] and 'Song Li' in data['dates']
     def nonempty(value):
         if isinstance(value,str):assert value.strip(),locale

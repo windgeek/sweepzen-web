@@ -25,3 +25,5 @@ p,li{overflow-wrap:break-word}h1,h2,h3{overflow-wrap:break-word}
 .intro{grid-template-columns:minmax(0,1fr) auto}.intro>div{min-width:0}h1{hyphens:auto}
 @media(max-width:650px){.intro{grid-template-columns:minmax(0,1fr)}.intro img{display:none}.intro h1{hyphens:manual}.privacy-intro h1:lang(de){hyphens:auto}.privacy-intro h1:lang(ja){font-size:clamp(24px,7.5vw,30px)}}
 .intro h1{text-wrap:balance}
+/* Keep the language menu inside the viewport when narrow navigation wraps. */
+@media(max-width:380px){.header-actions>.language-picker{margin-left:auto}}
